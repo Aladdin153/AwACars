@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AwACars</title>
+    <link rel="stylesheet" href="maincss.css">
+</head>
+<body>
+
+<h3 class="title">AwACars</h3>
+
+<p>
+    Компания занимается доставкой автомобилей из Европы под заказ.
+    Мы работаем только с проверенными поставщиками и гарантируем качество.
+</p>
+
+
+<table>
+    <caption>Доступные автомобили в наличии</caption>
+    <tr>
+        <th>Марка</th>
+        <th>Модель</th>
+        <th>Год</th>
+    </tr>
+    <tr>
+        <td>Audi</td>
+        <td>RS6</td>
+        <td>2020</td>
+    </tr>
+    <tr>
+        <td>BMW</td>
+        <td>X5M</td>
+        <td>2023</td>
+    </tr>
+</table>
+
+<ul class="car-list">
+    <li>Подбор авто</li>
+    <li>Проверка истории</li>
+    <li>Доставка</li>
+</ul>
+
+<p>
+    <a href="about.html">О компании</a> |
+    <a href="contacts.html">Контакты</a>
+</p>
+
+<script>
+            let str = prompt("Введите свою фамилию");
+            let str1 = prompt("Введите свой возраст");
+            let str2 = prompt("Введите свой пол");
+            let result = confirm(str+"\n" +str1+ "\n" +str2+"\n"+"Все верно?");
+ 
+       if (result) 
+       {      alert("Молодец, "+ str);  
+
+       } else
+       {      alert("Ошибка данных!!!");   
+
+       }
+
+        </script>
+
+</body>
+</html>
